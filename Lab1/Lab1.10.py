@@ -1,5 +1,5 @@
 # Dictionary initialaztion
-person = {'name': 'Alice', 'age': 30, 'city': 'New york' }
+person = {'name': 'Alice', 'age': 30, 'city': 'New york' }  # Key ,values
 
 #accessing values
 print("Name:", person['name'])      #output alice
