@@ -1,19 +1,19 @@
-# ชุดข้อมูล (Sets)
+#  (Sets)
 set1 = {1, 2, 3, 4}
 set2 = {3, 4, 5, 6}
 
-# การรวมชุดข้อมูล (Union)
+#  (Union)
 union_set = set1 | set2
-print("Union:", union_set) # แสดงผล: Union: {1, 2, 3, 4, 5, 6}
+print("Union:", union_set) # result: Union: {1, 2, 3, 4, 5, 6}
 
-# การตัดกันของชุดข้อมูล (Intersection)
+#  (Intersection)
 intersection_set = set1 & set2
-print("Intersection:", intersection_set) # แสดงผล: Intersection: {3, 4}
+print("Intersection:", intersection_set) # result: Intersection: {3, 4}
 
-# ความแตกต่างระหว่างชุดข้อมูล (Difference)
+#  (Difference)
 difference_set = set1 - set2
-print("Difference:", difference_set) # แสดงผล: Difference: {1, 2}
+print("Difference:", difference_set) # result: Difference: {1, 2}
 
-# ความแตกต่างแบบสมมาตร (Symmetric Difference)
+#  (Symmetric Difference)
 symmetric_difference_set = set1 ^ set2
-print("Symmetric Difference:", symmetric_difference_set) # แสดงผล: Symmetric Difference: {1, 2, 5, 6}
+print("Symmetric Difference:", symmetric_difference_set) # result: Symmetric Difference: {1, 2, 5, 6}

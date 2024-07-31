@@ -1,17 +1,17 @@
-#  การทำงานกับดิกชันนารี
+# Example 1: Working with dictionaries 
 
-#  สร้างดิกชันนารีของเกรดนักเรียน
+# Creating a dictionary of student grades 
 grades = {'Alice': 85, 'Bob': 92, 'Charlie': 88, 'David': 95}
 
-#  เข้าถึงค่าโดยใช้คีย์
-print("Bob's grade:", grades['Bob']) # Output: Bob's grade: 92 แสดงผล: Bob's grade: 92
+# Accessing values using keys 
+print("Bob's grade:", grades['Bob']) # Output: Bob's grade: 92 
 
-#  เพิ่มข้อมูลใหม่
+# Adding a new entry 
 grades['Eve'] = 90
 
-#  การวนลูปผ่านคีย์และค่า
+# Iterating through keys and values 
 for student, grade in grades.items():
     print(f"{student}: {grade}")
     
-#  ใช้เมธอด get() เพื่อลดโอกาสการเกิด KeyError
-print("Frank's garde:", grades.get('Frank','Grade not found')) #  แสดงผล: Frank's grade: Grade not found
+# Using get() method to avoid KeyError 
+print("Frank's garde:", grades.get('Frank','Grade not found')) # Output: Frank's grade: Grade not found 
